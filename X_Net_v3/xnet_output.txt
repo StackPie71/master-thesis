@@ -1,0 +1,223 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: virtualenv in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (16.7.5)
+
+[notice] A new release of pip available: 22.2 -> 22.2.1
+[notice] To update, run: pip install --upgrade pip
+Already using interpreter /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/bin/python3
+Using base prefix '/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0'
+New python executable in /auto/home/users/n/b/nboulang/X_Net/my_venv/bin/python3
+Not overwriting existing python script /auto/home/users/n/b/nboulang/X_Net/my_venv/bin/python (you must use /auto/home/users/n/b/nboulang/X_Net/my_venv/bin/python3)
+Running virtualenv with interpreter /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/bin/python3
+Requirement already satisfied: pip in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (22.2.1)
+Requirement already satisfied: sklearn in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (0.0)
+Requirement already satisfied: scikit-learn in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from sklearn) (1.0.2)
+Requirement already satisfied: joblib>=0.11 in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from scikit-learn->sklearn) (0.13.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from scikit-learn->sklearn) (3.1.0)
+Requirement already satisfied: scipy>=1.1.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.7.3)
+Requirement already satisfied: numpy>=1.14.6 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from scikit-learn->sklearn) (1.21.6)
+Requirement already satisfied: nibabel in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (4.0.1)
+Requirement already satisfied: packaging>=17.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from nibabel) (21.3)
+Requirement already satisfied: setuptools in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from nibabel) (63.2.0)
+Requirement already satisfied: numpy>=1.17 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from nibabel) (1.21.6)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from packaging>=17.0->nibabel) (2.4.2)
+Requirement already satisfied: torchio in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (0.18.83)
+Requirement already satisfied: humanize in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (4.2.3)
+Requirement already satisfied: numpy>=1.15 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (1.21.6)
+Requirement already satisfied: scipy in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (1.7.3)
+Requirement already satisfied: Deprecated in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (1.2.13)
+Requirement already satisfied: nibabel in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (4.0.1)
+Requirement already satisfied: click in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from torchio) (7.0)
+Requirement already satisfied: tqdm in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (4.64.0)
+Requirement already satisfied: torch>=1.1 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (1.8.0+cu111)
+Requirement already satisfied: SimpleITK!=2.0.*,!=2.1.1.1 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchio) (2.1.1.2)
+Requirement already satisfied: typing-extensions in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torch>=1.1->torchio) (4.3.0)
+Requirement already satisfied: wrapt<2,>=1.10 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from Deprecated->torchio) (1.14.1)
+Requirement already satisfied: importlib-metadata in /auto/home/users/n/b/nboulang/.local/lib/python3.7/site-packages (from humanize->torchio) (4.12.0)
+Requirement already satisfied: packaging>=17.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from nibabel->torchio) (21.3)
+Requirement already satisfied: setuptools in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from nibabel->torchio) (63.2.0)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from packaging>=17.0->nibabel->torchio) (2.4.2)
+Requirement already satisfied: zipp>=0.5 in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from importlib-metadata->humanize->torchio) (0.6.0)
+Requirement already satisfied: more-itertools in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from zipp>=0.5->importlib-metadata->humanize->torchio) (7.2.0)
+Requirement already satisfied: IPython in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (7.34.0)
+Requirement already satisfied: decorator in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from IPython) (4.4.0)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (3.0.30)
+Requirement already satisfied: jedi>=0.16 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (0.18.1)
+Requirement already satisfied: matplotlib-inline in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (0.1.3)
+Requirement already satisfied: setuptools>=18.5 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (63.2.0)
+Requirement already satisfied: pygments in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from IPython) (2.4.2)
+Requirement already satisfied: traitlets>=4.2 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (5.3.0)
+Requirement already satisfied: backcall in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (0.2.0)
+Requirement already satisfied: pickleshare in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (0.7.5)
+Requirement already satisfied: pexpect>4.3 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from IPython) (4.8.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from jedi>=0.16->IPython) (0.8.3)
+Requirement already satisfied: ptyprocess>=0.5 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from pexpect>4.3->IPython) (0.7.0)
+Requirement already satisfied: wcwidth in /opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->IPython) (0.1.7)
+Requirement already satisfied: setuptools in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (63.2.0)
+Requirement already satisfied: tensorboardX in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (2.5.1)
+Requirement already satisfied: protobuf<=3.20.1,>=3.8.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from tensorboardX) (3.19.4)
+Requirement already satisfied: numpy in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from tensorboardX) (1.21.6)
+Requirement already satisfied: SimpleITK in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (2.1.1.2)
+Looking in links: https://download.pytorch.org/whl/torch_stable.html
+Requirement already satisfied: torch==1.8.0+cu111 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (1.8.0+cu111)
+Requirement already satisfied: torchvision==0.9.0+cu111 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (0.9.0+cu111)
+Requirement already satisfied: torchaudio==0.8.0 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (0.8.0)
+Requirement already satisfied: typing-extensions in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torch==1.8.0+cu111) (4.3.0)
+Requirement already satisfied: numpy in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torch==1.8.0+cu111) (1.21.6)
+Requirement already satisfied: pillow>=4.1.1 in /auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages (from torchvision==0.9.0+cu111) (9.2.0)
+['/auto/home/users/n/b/nboulang/X_Net_v3/xnet/pymic/train_infer', '/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/easybuild/python', '/auto/home/users/n/b/nboulang/Head-Neck-GTV-master/HeadNeck_GTV', '/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python37.zip', '/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7', '/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/lib-dynload', '/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7', '/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages', '/auto/home/users/n/b/nboulang/X_Net', '/home/ucl/ingi/nboulang/.local/lib/python3.7/site-packages', '/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages', '/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages/pip-19.2.3-py3.7.egg']
+dataset root_dir /auto/home/users/n/b/nboulang/X_Net_v3/xnet/alldataset/middle_scale/ /auto/home/users/n/b/nboulang/X_Net_v3/xnet/alldataset/middle_scale/
+dataset train_csv /auto/home/users/n/b/nboulang/X_Net_v3/xnet/examples/miccai/config/image_train.csv /auto/home/users/n/b/nboulang/X_Net_v3/xnet/examples/miccai/config/image_train.csv
+dataset valid_csv /auto/home/users/n/b/nboulang/X_Net_v3/xnet/examples/miccai/config/image_valid.csv /auto/home/users/n/b/nboulang/X_Net_v3/xnet/examples/miccai/config/image_valid.csv
+dataset test_csv /auto/home/users/n/b/nboulang/X_Net_v3/xnet/examples/miccai/config/image_test.csv /auto/home/users/n/b/nboulang/X_Net_v3/xnet/examples/miccai/config/image_test.csv
+dataset modal_num 1 1
+dataset train_transform [RandomCrop, RandomFlip] ['RandomCrop', 'RandomFlip']
+dataset valid_transform [Donothing] ['Donothing']
+dataset test_transform [Donothing] ['Donothing']
+dataset randomcrop_output_size [16, 64, 64] [16, 64, 64]
+dataset randomcrop_inverse False False
+dataset randomflip_flip_depth False False
+dataset randomflip_flip_height False False
+dataset randomflip_flip_width False False
+dataset randomflip_inverse True True
+dataset donothing_do True True
+network net_type XNet XNet
+network class_num 2 2
+network in_chns 1 1
+network feature_chns [16, 32, 64, 128, 256] [16, 32, 64, 128, 256]
+network acti_func leakyrelu leakyrelu
+network leakyrelu_negative_slope 0.01 0.01
+network dropout False False
+training device_name cuda:0 cuda:0
+training batch_size 16 16
+training loss_function dice_loss dice_loss
+training optimizer Adam Adam
+training learning_rate 1e-4 0.0001
+training momentum 0.9 0.9
+training weight_decay 1e-5 1e-05
+training lr_gamma 0.1 0.1
+training lr_milestones [10000, 20000, 30000] [10000, 20000, 30000]
+training summary_dir model/xnet model/xnet
+training checkpoint_prefix model/xnet model/xnet
+training iter_start 0 0
+training iter_max 17000 17000
+training iter_valid 100 100
+training iter_save 100 100
+testing device_name cuda:0 cuda:0
+testing checkpoint_name model/xnet_3400.pt model/xnet_3400.pt
+testing mini_patch_shape None None
+testing mini_batch_size 1 1
+testing label_source None None
+testing label_target None None
+testing output_dir result result
+testing save_probability False False
+2022-07-30 12:31:07 training start
+train cls dice CT (2,) [0.98782987 0.0840488 ]
+train cls dice MR (2,) [0.98037126 0.01771012]
+valid cls dice CT (2,) [9.99502389e-01 6.94640154e-09]
+valid cls dice MR (2,) [0.9993726  0.00740373]
+2022-07-30 12:44:27 it 100, loss 1.0962, 0.5121
+train cls dice CT (2,) [0.99877303 0.10000006]
+train cls dice MR (2,) [0.99820447 0.0401508 ]
+valid cls dice CT (2,) [9.99502389e-01 6.94640154e-09]
+valid cls dice MR (2,) [0.99843575 0.07461248]
+2022-07-30 12:57:59 it 200, loss 0.9956, 0.4923
+train cls dice CT (2,) [0.99805547 0.06660296]
+train cls dice MR (2,) [0.99578089 0.12286911]
+valid cls dice CT (2,) [0.99540624 0.11787207]
+valid cls dice MR (2,) [0.99628452 0.16246662]
+2022-07-30 13:11:26 it 300, loss 0.9503, 0.4696
+train cls dice CT (2,) [0.99615766 0.1386304 ]
+train cls dice MR (2,) [0.99605302 0.17836102]
+valid cls dice CT (2,) [0.99265437 0.09435013]
+valid cls dice MR (2,) [0.99754401 0.20277952]
+2022-07-30 13:24:50 it 400, loss 0.8959, 0.4524
+train cls dice CT (2,) [0.99686295 0.12893918]
+train cls dice MR (2,) [0.99683321 0.15758792]
+valid cls dice CT (2,) [0.99553862 0.1252501 ]
+valid cls dice MR (2,) [0.9986045  0.22995469]
+2022-07-30 13:38:17 it 500, loss 0.8960, 0.4417
+train cls dice CT (2,) [0.99624748 0.1638697 ]
+train cls dice MR (2,) [0.99620819 0.17554305]
+valid cls dice CT (2,) [0.99701905 0.17113815]
+valid cls dice MR (2,) [0.99866332 0.21139989]
+2022-07-30 13:51:42 it 600, loss 0.8730, 0.4240
+train cls dice CT (2,) [0.99682712 0.14654963]
+train cls dice MR (2,) [0.99655682 0.15050468]
+valid cls dice CT (2,) [0.99917137 0.1998964 ]
+valid cls dice MR (2,) [0.9991511  0.25745976]
+2022-07-30 14:05:10 it 700, loss 0.8815, 0.4063
+train cls dice CT (2,) [0.99700014 0.17395374]
+train cls dice MR (2,) [0.99693482 0.19683858]
+valid cls dice CT (2,) [0.99817869 0.19851511]
+valid cls dice MR (2,) [0.99884638 0.20300515]
+2022-07-30 14:18:35 it 800, loss 0.8455, 0.4159
+train cls dice CT (2,) [0.99750184 0.15885587]
+train cls dice MR (2,) [0.99309199 0.11165063]
+valid cls dice CT (2,) [0.99879484 0.26566584]
+valid cls dice MR (2,) [0.99737631 0.196959  ]
+2022-07-30 14:32:02 it 900, loss 0.8963, 0.3991
+train cls dice CT (2,) [0.9977371 0.2407478]
+train cls dice MR (2,) [0.99677668 0.20588442]
+valid cls dice CT (2,) [0.99704766 0.1826721 ]
+valid cls dice MR (2,) [0.99936756 0.31277191]
+2022-07-30 14:45:29 it 1000, loss 0.8161, 0.3899
+train cls dice CT (2,) [0.99732105 0.2187532 ]
+train cls dice MR (2,) [0.99645015 0.20397654]
+valid cls dice CT (2,) [0.9982805  0.18958549]
+valid cls dice MR (2,) [0.99879792 0.13292072]
+2022-07-30 14:58:59 it 1100, loss 0.8163, 0.4270
+train cls dice CT (2,) [0.99732092 0.22585144]
+train cls dice MR (2,) [0.997531  0.2446017]
+valid cls dice CT (2,) [0.99879667 0.26924861]
+valid cls dice MR (2,) [0.99920849 0.26430025]
+2022-07-30 15:12:31 it 1200, loss 0.7942, 0.3731
+train cls dice CT (2,) [0.99802728 0.26103736]
+train cls dice MR (2,) [0.99773759 0.23546441]
+valid cls dice CT (2,) [0.99874796 0.24592345]
+valid cls dice MR (2,) [0.99924363 0.29931581]
+2022-07-30 15:25:59 it 1300, loss 0.7985, 0.3671
+train cls dice CT (2,) [0.99773098 0.27363821]
+train cls dice MR (2,) [0.99775982 0.29595982]
+valid cls dice CT (2,) [0.99939661 0.25194812]
+valid cls dice MR (2,) [0.99927937 0.28397089]
+2022-07-30 15:39:25 it 1400, loss 0.7442, 0.3756
+train cls dice CT (2,) [0.99782877 0.30888351]
+train cls dice MR (2,) [0.9977704  0.29252967]
+valid cls dice CT (2,) [0.99892806 0.25741034]
+valid cls dice MR (2,) [0.99937648 0.30238872]
+2022-07-30 15:52:51 it 1500, loss 0.7369, 0.3651
+train cls dice CT (2,) [0.99829995 0.25512513]
+train cls dice MR (2,) [0.99821773 0.25940044]
+valid cls dice CT (2,) [0.9989824  0.26673863]
+valid cls dice MR (2,) [0.99856654 0.29072319]
+2022-07-30 16:06:18 it 1600, loss 0.7765, 0.3672
+train cls dice CT (2,) [0.99779059 0.2824553 ]
+train cls dice MR (2,) [0.99810238 0.30093146]
+valid cls dice CT (2,) [0.99897305 0.25704923]
+valid cls dice MR (2,) [0.99905179 0.30455264]
+2022-07-30 16:19:44 it 1700, loss 0.7278, 0.3631
+train cls dice CT (2,) [0.9979445  0.32112035]
+train cls dice MR (2,) [0.99802438 0.33859756]
+valid cls dice CT (2,) [0.99788482 0.23307346]
+valid cls dice MR (2,) [0.99846633 0.28860507]
+2022-07-30 16:33:15 it 1800, loss 0.6886, 0.3742
+train cls dice CT (2,) [0.99748743 0.31320718]
+train cls dice MR (2,) [0.99833587 0.33596692]
+valid cls dice CT (2,) [0.99791117 0.21382516]
+valid cls dice MR (2,) [0.9991749  0.29926624]
+2022-07-30 16:46:38 it 1900, loss 0.7128, 0.3746
+train cls dice CT (2,) [0.99797754 0.33733178]
+train cls dice MR (2,) [0.99794852 0.3350721 ]
+valid cls dice CT (2,) [0.99922743 0.31306243]
+valid cls dice MR (2,) [0.99930798 0.3571463 ]
+2022-07-30 17:00:05 it 2000, loss 0.7156, 0.3405
+train cls dice CT (2,) [0.99799511 0.28968581]
+train cls dice MR (2,) [0.99828113 0.33901015]
+valid cls dice CT (2,) [0.99923337 0.2906656 ]
+valid cls dice MR (2,) [0.99950102 0.44659728]
+2022-07-30 17:13:34 it 2100, loss 0.7210, 0.3262
+train cls dice CT (2,) [0.99802135 0.321811  ]
+train cls dice MR (2,) [0.99816017 0.31836334]
+valid cls dice CT (2,) [0.99885567 0.2773268 ]
+valid cls dice MR (2,) [0.99905415 0.35527851]
+2022-07-30 17:27:01 it 2200, loss 0.7149, 0.3447

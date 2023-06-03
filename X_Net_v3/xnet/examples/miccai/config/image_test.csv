@@ -1,0 +1,5 @@
+data_ct,label_ct,data_mr,label_mr
+data_ct/ANON866.nii.gz,label_ct/ANON866.nii.gz,data_mr/ANON866.nii.gz,label_mr/ANON866.nii.gz
+data_ct/ANON3647.nii.gz,label_ct/ANON3647.nii.gz,data_mr/ANON3647.nii.gz,label_mr/ANON3647.nii.gz
+data_ct/ANON590.nii.gz,label_ct/ANON590.nii.gz,data_mr/ANON590.nii.gz,label_mr/ANON590.nii.gz
+data_ct/ANON2453.nii.gz,label_ct/ANON2453.nii.gz,data_mr/ANON2453.nii.gz,label_mr/ANON2453.nii.gz

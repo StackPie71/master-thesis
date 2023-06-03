@@ -1,0 +1,74 @@
+
+The following have been reloaded with a version change:
+  1) releases/2020b => releases/2019b
+
+Traceback (most recent call last):
+  File "/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages/virtualenv.py", line 2632, in <module>
+    main()
+  File "/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages/virtualenv.py", line 870, in main
+    symlink=options.symlink,
+  File "/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages/virtualenv.py", line 1159, in create_environment
+    install_distutils(home_dir)
+  File "/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages/virtualenv.py", line 1784, in install_distutils
+    distutils_path = change_prefix(distutils.__path__[0], home_dir)
+  File "/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0/lib/python3.7/site-packages/virtualenv.py", line 1267, in change_prefix
+    assert False, "Filename {} does not start with any of these prefixes: {}".format(filename, prefixes)
+AssertionError: Filename /home/ucl/ingi/nboulang/.local/lib/python3.7/site-packages/setuptools/_distutils does not start with any of these prefixes: ['/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0', '/opt/sw/arch/easybuild/2019b/software/Python/3.7.4-GCCcore-8.3.0']
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+WARNING: Ignoring invalid distribution -orch (/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages)
+/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages/torch/utils/data/dataloader.py:477: UserWarning: This DataLoader will create 32 worker processes in total. Our suggested max number of worker in current system is 16, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+/auto/home/users/n/b/nboulang/X_Net/my_venv/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
