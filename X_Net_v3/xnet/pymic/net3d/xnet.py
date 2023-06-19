@@ -148,7 +148,7 @@ class XNet(nn.Module):
     def forward(self, x_ct, x_mr):
         f1_ct = self.block1_ct(x_ct)
         f1_mr = self.block1_mr(x_mr)
-        if(self.dropout):     # Pas de dropout donc don't care, utile pour future improvements
+        if(self.dropout):     # No dropout but can be interesting to test for future improvements
              f1 = self.drop1(f1)
         d1_ct = self.down1_ct(f1_ct)
         d1_mr = self.down1_mr(f1_mr)
@@ -188,6 +188,7 @@ class XNet(nn.Module):
             f6_ct    = self.block6_ct(f4cat_ct)
             f6_mr    = self.block6_mr(f4cat_mr)
             
+            # Fusion of the 2 modalities at the bottleneck
             f6_fus = torch.cat((f6_ct, f6_mr), dim=1)
             f6_fus = self.fusion(f6_fus)
             
@@ -233,7 +234,7 @@ if __name__ == "__main__":
     Net = XNet(params)
     Net = Net.double()
 
-    # ça sert à tester le net pour voir la forme de ce qui sort
+    # This is used for testing to see the shape of the output tensors
     x_ct  = np.random.rand(1, 1, 48, 80, 96)
     x_mr  = np.random.rand(1, 1, 48, 80, 96)
     xt_ct = torch.from_numpy(x_ct)
